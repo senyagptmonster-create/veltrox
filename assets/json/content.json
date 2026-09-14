@@ -1,0 +1,6 @@
+{
+  "routines": [
+    {"name": "HIIT Basics", "work": 30, "rest": 15, "sets": 5},
+    {"name": "Tabata", "work": 20, "rest": 10, "sets": 8}
+  ]
+}

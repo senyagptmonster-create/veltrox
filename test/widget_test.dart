@@ -4,6 +4,6 @@ import 'package:veltrox/veltrox_app.dart';
 void main() {
   testWidgets('VeltroxApp smoke test', (WidgetTester tester) async {
     await tester.pumpWidget(const VeltroxApp());
-    expect(find.byType(VeltroxApp), findsOneWidget);
+    expect(find.text('Veltrox Sports Chrono'), findsOneWidget);
   });
 }

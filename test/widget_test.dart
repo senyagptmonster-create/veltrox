@@ -1,10 +1,9 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:veltrox/product/product_app.dart';
+import 'package:veltrox/veltrox_app.dart';
 
 void main() {
-  testWidgets('Smoke test', (WidgetTester tester) async {
-    await tester.pumpWidget(const MaterialApp(home: ProductApp()));
-    expect(find.byType(ProductApp), findsOneWidget);
+  testWidgets('VeltroxApp smoke test', (WidgetTester tester) async {
+    await tester.pumpWidget(const VeltroxApp());
+    expect(find.byType(VeltroxApp), findsOneWidget);
   });
 }
